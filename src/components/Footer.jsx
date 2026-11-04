@@ -15,7 +15,7 @@ import {
 const BRAND = "ARS";
 const BRAND_TAG = "Dewatering Contractor";
 const ABOUT_TEXT =
-  "Construction sites par jama paani ko tez, safe aur guaranteed tarike se nikalna aur jagah ko kaam ke liye taiyar karna, yahi hamari pehchan hai.";
+  "Removing accumulated water from construction sites—quickly, safely, and reliably—and preparing the area for work: this is what we are known for.";
 const PHONE = "+91 98765 43210";
 const PHONE_LINK = "+919876543210";
 const WHATSAPP = "919876543210";
@@ -133,10 +133,10 @@ export default function Footer() {
           <div className="relative flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div>
               <h3 className="text-2xl font-extrabold text-white sm:text-3xl">
-                Site par paani jam gaya hai?
+                Has water collected on the site?
               </h3>
               <p className="mt-2 max-w-xl text-sm text-blue-50/90 sm:text-base">
-                Aaj hi call karein, hamari team free site visit ke liye taiyar hai.
+                Call today; our team is ready for a free site visit.
               </p>
             </div>
 

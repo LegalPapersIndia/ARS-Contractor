@@ -27,3 +27,8 @@
     font-family: var(--font-heading);
   }
 }
+
+/* Contact page: no gap between the last section and the footer */
+main:has(.footer-flush) + footer {
+  margin-top: 0;
+}

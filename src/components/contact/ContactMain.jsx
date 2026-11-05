@@ -268,10 +268,10 @@ export default function ContactMain() {
                       <span className="block text-xs font-semibold uppercase tracking-wider text-blue-100/60">
                         {item.label}
                       </span>
-                      <span className="mt-1 block break-words text-sm font-medium sm:text-base">
+                      <span className="mt-1 block wrap-break-word text-sm font-medium sm:text-base">
                         {item.value}
                       </span>
-                    </span>
+                    </span> 
                   </>
                 );
 

@@ -85,7 +85,7 @@ function WaveTop() {
   );
 
   return (
-    <div className="pointer-events-none absolute inset-x-0 top-0 -translate-y-[99%] overflow-hidden text-[#071B47]">
+    <div className="pointer-events-none absolute inset-x-0 top-0 translate-y-[-99%] overflow-hidden text-[#071B47]">
       {/* peeche wali halki wave */}
       <motion.div
         className="absolute inset-x-0 bottom-0 flex h-12 w-[200%] text-sky-400/30 sm:h-16"
@@ -124,7 +124,7 @@ export default function Footer() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.3 }}
-          className="relative -translate-y-1/2 overflow-hidden rounded-3xl bg-gradient-to-r from-[#1747B0] via-[#1D5FD1] to-sky-500 p-7 shadow-2xl shadow-blue-900/40 sm:p-10"
+          className="relative -translate-y-1/2 overflow-hidden rounded-3xl bg-linear-to-r from-[#1747B0] via-[#1D5FD1] to-sky-500 p-7 shadow-2xl shadow-blue-900/40 sm:p-10"
         >
           {/* decorative circles */}
           <span className="absolute -right-10 -top-10 h-44 w-44 rounded-full bg-white/10" />
@@ -179,7 +179,7 @@ export default function Footer() {
             className="lg:col-span-4"
           >
             <Link to="/" className="inline-flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#1747B0] to-sky-500 text-lg font-extrabold text-white shadow-lg">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-v-to-br from-[#1747B0] to-sky-500 text-lg font-extrabold text-white shadow-lg">
                 {BRAND}
               </div>
               <div className="leading-tight">
@@ -204,7 +204,7 @@ export default function Footer() {
                   aria-label={s.name}
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-slate-300 transition-all hover:-translate-y-1 hover:border-sky-400 hover:bg-sky-500 hover:text-white"
                 >
-                  <svg viewBox="0 0 24 24" fill="currentColor" className="h-[18px] w-[18px]">
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="h-4.5 w-4.5">
                     <path d={s.path} />
                   </svg>
                 </a>
@@ -223,7 +223,7 @@ export default function Footer() {
           >
             <h4 className="mb-5 text-sm font-bold uppercase tracking-widest text-white">
               Quick Links
-              <span className="mt-2 block h-[3px] w-10 rounded-full bg-sky-400" />
+              <span className="mt-2 block h-0.75 w-10 rounded-full bg-sky-400" />
             </h4>
             <ul className="space-y-3 text-sm">
               {QUICK_LINKS.map((l) => (
@@ -254,7 +254,7 @@ export default function Footer() {
           >
             <h4 className="mb-5 text-sm font-bold uppercase tracking-widest text-white">
               Our Services
-              <span className="mt-2 block h-[3px] w-10 rounded-full bg-sky-400" />
+              <span className="mt-2 block h-0.75 w-10 rounded-full bg-sky-400" />
             </h4>
             <ul className="space-y-3 text-sm">
               {SERVICES.map((s) => (
@@ -285,7 +285,7 @@ export default function Footer() {
           >
             <h4 className="mb-5 text-sm font-bold uppercase tracking-widest text-white">
               Contact Us
-              <span className="mt-2 block h-[3px] w-10 rounded-full bg-sky-400" />
+              <span className="mt-2 block h-0.75 w-10 rounded-full bg-sky-400" />
             </h4>
             <ul className="space-y-4 text-sm">
               <li className="flex gap-3">

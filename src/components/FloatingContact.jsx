@@ -55,7 +55,7 @@ export default function FloatingContact() {
           Call Now
         </span>
 
-        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-[#0A2A6B] to-[#1747B0] text-white shadow-xl shadow-blue-900/30 transition-transform duration-300 group-hover:scale-110 group-active:scale-95">
+        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-linear-to-br from-[#0A2A6B] to-[#1747B0] text-white shadow-xl shadow-blue-900/30 transition-transform duration-300 group-hover:scale-110 group-active:scale-95">
           <Phone size={22} />
         </span>
       </motion.a>

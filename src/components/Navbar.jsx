@@ -89,12 +89,12 @@ export default function Navbar() {
       >
         <div
           className={`mx-auto flex max-w-7xl items-center justify-between px-5 transition-all duration-300 lg:px-6 ${
-            scrolled ? "h-16" : "h-[72px]"
+            scrolled ? "h-16" : "h-18"
           }`}
         >
           {/* Logo */}
           <Link to="/" className="group flex items-center gap-3">
-            <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[#0A2A6B] via-[#123C93] to-[#1D5FD1] shadow-md transition-transform duration-300 group-hover:scale-105">
+            <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-linear-to-br from-[#0A2A6B] via-[#123C93] to-[#1D5FD1] shadow-md transition-transform duration-300 group-hover:scale-105">
               <span className="text-[17px] font-extrabold tracking-wide text-white">
                 {BRAND}
               </span>
@@ -132,7 +132,7 @@ export default function Navbar() {
                       {isActive && (
                         <motion.span
                           layoutId="nav-underline"
-                          className="absolute inset-x-4 -bottom-0.5 h-[3px] rounded-full bg-gradient-to-r from-[#1747B0] to-sky-400"
+                          className="absolute inset-x-4 -bottom-0.5 h-0.75 rounded-full bg-linear-to-r from-[#1747B0] to-sky-400"
                           transition={{ type: "spring", stiffness: 400, damping: 32 }}
                         />
                       )}
@@ -154,14 +154,14 @@ export default function Navbar() {
             </a>
             <Link
               to="/contact"
-              className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#0A2A6B] to-[#1747B0] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-blue-900/20 transition-all hover:shadow-xl hover:shadow-blue-900/30"
+              className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-linear-to-r from-[#0A2A6B] to-[#1747B0] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-blue-900/20 transition-all hover:shadow-xl hover:shadow-blue-900/30"
             >
               <span className="relative z-10">Get Free Quote</span>
               <ArrowRight
                 size={16}
                 className="relative z-10 transition-transform group-hover:translate-x-1"
               />
-              <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-sky-500 to-[#1747B0] transition-transform duration-500 group-hover:translate-x-0" />
+              <span className="absolute inset-0 -translate-x-full bg-linear-to-r from-sky-500 to-[#1747B0] transition-transform duration-500 group-hover:translate-x-0" />
             </Link>
           </div>
 
@@ -196,7 +196,7 @@ export default function Navbar() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 onClick={() => setOpen(false)}
-                className="fixed inset-0 top-[72px] -z-10 bg-slate-900/40 backdrop-blur-sm lg:hidden"
+                className="fixed inset-0 top-18 -z-10 bg-slate-900/40 backdrop-blur-sm lg:hidden"
               />
 
               <motion.div

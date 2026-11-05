@@ -185,7 +185,7 @@ export default function Equipment() {
         >
           {/* Tab list */}
           <div className="lg:col-span-4">
-            <div className="flex gap-3 overflow-x-auto pb-2 [scrollbar-width:none] lg:flex-col lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden">
+            <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-none lg:flex-col lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden">
               {EQUIPMENT.map((e, i) => {
                 const Icon = e.icon;
                 const isActive = i === active;

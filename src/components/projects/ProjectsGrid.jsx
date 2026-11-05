@@ -342,11 +342,11 @@ export default function ProjectsGrid() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-12 flex justify-start overflow-x-auto pb-2 [scrollbar-width:none] sm:justify-center [&::-webkit-scrollbar]:hidden"
+          className="mt-12 flex justify-start overflow-x-auto pb-2 scrollbar-none sm:justify-center [&::-webkit-scrollbar]:hidden"
         >
           <div className="flex gap-2 rounded-full border border-slate-200 bg-white p-1.5 shadow-sm">
             {FILTERS.map((f) => {
-              const active = filter === f;
+              const active = filter === f;    
               return (
                 <button
                   key={f}

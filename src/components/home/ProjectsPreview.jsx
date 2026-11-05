@@ -126,16 +126,16 @@ export default function ProjectsPreview() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }}
-          className="mt-14 grid gap-6 sm:grid-cols-2 lg:auto-rows-[20rem] lg:grid-cols-3"
+          className="mt-14 grid gap-6 sm:grid-cols-2 lg:auto-rows-80 lg:grid-cols-3"
         >
           {PROJECTS.map((p, i) => (
             <motion.div
-  key={p.title}
-  variants={fadeUp}
-  className={
-    i === 0 ? "lg:row-span-2" : i === 1 ? "lg:col-span-2" : ""
-  }
->
+              key={p.title}
+              variants={fadeUp}
+              className={
+                i === 0 ? "lg:row-span-2" : i === 1 ? "lg:col-span-2" : ""
+              }
+            >
               <Link
                 to="/projects"
                 className="group relative block h-80 overflow-hidden rounded-3xl shadow-lg shadow-blue-900/10 transition-shadow duration-500 hover:shadow-2xl hover:shadow-blue-900/30 sm:h-96 lg:h-full"

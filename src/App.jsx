@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
       <main className="pt-18 lg:pt-28">
         <Routes>
           <Route path="/" element={<Home />} />
-           <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
-           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 

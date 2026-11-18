@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import logo from "../Asset/logo/logo-icon.png";
 import {
   Phone,
   Mail,
@@ -16,7 +17,7 @@ const BRAND = "ARS";
 const BRAND_TAG = "Dewatering Contractor";
 const ABOUT_TEXT =
   "Removing accumulated water from construction sites—quickly, safely, and reliably—and preparing the area for work: this is what we are known for.";
-const PHONE = "+91 98765 43210";
+const PHONE = "+91 6398883191";
 const PHONE_LINK = "+919876543210";
 const WHATSAPP = "919876543210";
 const EMAIL = "info@arsdewatering.com";
@@ -178,17 +179,24 @@ export default function Footer() {
             viewport={{ once: true, amount: 0.2 }}
             className="lg:col-span-4"
           >
-            <Link to="/" className="inline-flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-v-to-br from-[#1747B0] to-sky-500 text-lg font-extrabold text-white shadow-lg">
-                {BRAND}
-              </div>
-              <div className="leading-tight">
-                <p className="text-xl font-extrabold text-white">{BRAND}</p>
-                <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-400">
-                  {BRAND_TAG}
-                </p>
-              </div>
-            </Link>
+            <Link to="/" className="group inline-flex items-center gap-4" aria-label={`${BRAND} home`}>
+  <span className="flex h-16 items-center rounded-2xl bg-white px-3 py-2 shadow-xl shadow-black/30 transition-transform duration-300 group-hover:scale-105">
+    <img
+      src={logo}
+      alt={`${BRAND} logo`}
+      className="h-full w-auto object-contain"
+    />
+  </span>
+
+  <div className="leading-tight">
+    <p className="text-xl font-extrabold text-white">
+      {BRAND_TAG.split(" ")[0]}
+    </p>
+    <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-400">
+      {BRAND_TAG.split(" ")[1]}
+    </p>
+  </div>
+</Link>
 
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
               {ABOUT_TEXT}

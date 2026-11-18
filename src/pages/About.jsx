@@ -14,8 +14,12 @@ export default function About() {
       <MissionVision />
       <CoreValues />
       <Industries />
-      <Commitments />
-      <AboutCTA />
+     <Commitments />
+
+{/* White gap between Commitments and the CTA (change h-16 to adjust) */}
+<div className="h-16 bg-white" />
+
+<AboutCTA />
     </>
   );
 }

@@ -66,7 +66,7 @@ function TopWave() {
         {shape}
       </motion.div>
       <motion.div
-        className="relative flex h-7 w-[200%] text-[#061538] sm:h-12"
+        className="relative flex h-7 w-[200%] text-white sm:h-12"
         animate={{ x: ["0%", "-50%"] }}
         transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
       >

@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Phone, Mail, MapPin, ArrowRight, MessageCircle } from "lucide-react";
+import logo from "../Asset/logo/logo-icon.png";
 
 /* ---------- Content (client ka data aane par yahin badalna) ---------- */
-const PHONE = "+91 98765 43210";
+const PHONE = "+91 6398883191";
 const PHONE_LINK = "+919876543210";
 const WHATSAPP = "919876543210";
 const EMAIL = "info@arsdewatering.com";
@@ -93,23 +94,28 @@ export default function Navbar() {
           }`}
         >
           {/* Logo */}
-          <Link to="/" className="group flex items-center gap-3">
-            <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-linear-to-br from-[#0A2A6B] via-[#123C93] to-[#1D5FD1] shadow-md transition-transform duration-300 group-hover:scale-105">
-              <span className="text-[17px] font-extrabold tracking-wide text-white">
-                {BRAND}
-              </span>
-              {/* silver shine */}
-              <span className="absolute -left-6 top-0 h-full w-4 rotate-12 bg-white/30 blur-[2px] transition-all duration-700 group-hover:left-14" />
-            </div>
-            <div className="leading-tight">
-              <p className="text-lg font-extrabold tracking-tight text-[#0A2A6B]">
-                {BRAND}
-              </p>
-              <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">
-                {BRAND_TAG}
-              </p>
-            </div>
-          </Link>
+          <Link to="/" className="group flex items-center gap-3" aria-label={`${BRAND} home`}>
+  <span className="relative flex h-12 items-center overflow-hidden rounded-xl transition-transform duration-300 group-hover:scale-105">
+    <img
+      src={logo}
+      alt={`${BRAND} logo`}
+      className="h-12 w-auto object-contain"
+    />
+    {/* silver shine */}
+    <span className="absolute -left-6 top-0 h-full w-4 rotate-12 bg-white/50 blur-[2px] transition-all duration-700 group-hover:left-full" />
+  </span>
+
+  <span className="hidden h-9 w-px bg-slate-200 sm:block" />
+
+  <div className="leading-tight">
+    <p className="text-[15px] font-extrabold tracking-tight text-[#0A2A6B]">
+      {BRAND_TAG.split(" ")[0]}
+    </p>
+    <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-500">
+      {BRAND_TAG.split(" ")[1]}
+    </p>
+  </div>
+</Link>
 
           {/* Desktop links */}
           <ul className="hidden items-center gap-1 lg:flex">

@@ -24,28 +24,28 @@ const SUBTEXT =
 const COMMITMENTS = [
   {
     icon: ClipboardCheck,
-    title: "Free Site Visit",
-    text: "We inspect your site before we quote, at no cost to you, so the plan fits real conditions.",
+    title: "Site Inspection First",
+    text: "We look at your site before we plan, so the method fits the real conditions.",
   },
   {
     icon: FileText,
-    title: "Clear and Honest Quote",
-    text: "Straightforward pricing with no hidden charges and no surprise add-ons later.",
+    title: "Clear Quote",
+    text: "We explain the work and the cost clearly before the job begins.",
   },
   {
     icon: Wrench,
-    title: "Properly Maintained Equipment",
-    text: "Pumps, hoses and accessories are checked before they reach your site, to avoid breakdowns.",
+    title: "Right Equipment",
+    text: "We choose pumps, hoses and accessories to suit the water conditions of your site.",
   },
   {
     icon: HardHat,
     title: "Safe Working Practices",
-    text: "Trained people following safe procedures to protect your workers, our team and your property.",
+    text: "Safe procedures to protect your workers, our team and your property.",
   },
   {
     icon: PhoneCall,
-    title: "Regular Updates and Support",
-    text: "You stay informed during the work, and you can reach us whenever you need help.",
+    title: "Easy to Reach",
+    text: "You can reach us by call or WhatsApp while the work is going on.",
   },
 ];
 
@@ -160,7 +160,7 @@ export default function Commitments() {
               to="/contact"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#0A2A6B] shadow-lg transition hover:scale-[1.03]"
             >
-              Get Free Quote
+              Get a Quote
               <ArrowRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1"

@@ -15,21 +15,23 @@ import aboutSecondary from "../../Asset/about-secondary.png";
 const PHONE_LINK = "+916398883191";
 
 const EYEBROW = "Who We Are";
-const HEADING = "Trusted Dewatering Experts in Chhatarpur";
+const HEADING = "Trusted Dewatering Experts, Serving Sites Across India";
+
 const PARA_1 =
-  "ARS is a professional dewatering contractor serving builders, contractors and developers across Chhatarpur and nearby districts. We keep excavations, foundations and basements dry so your construction work can move ahead without delays.";
+  "ARS is a dewatering contractor led by Arvind Rajput and based in Chhatarpur (M.P.). Since 2018 we have been removing water from construction sites, and today we serve builders, contractors and developers across India.";
+
 const PARA_2 =
-  "With modern pumping equipment, a skilled on-site team and a clear, honest approach, we deliver safe and dependable results on projects of every size.";
+  "From building projects and railway works to smart city and water supply sites, our team brings pumping equipment, trained operators and clear communication to every project.";
+
 const HIGHLIGHT = "Right equipment. Skilled team. Guaranteed results.";
 
 // Placeholder number: replace with the client's real experience
-const EXPERIENCE_YEARS = 10;
 
 const POINTS = [
   "Guaranteed work quality",
-  "Modern, high-capacity pumps",
-  "Experienced site engineers",
-  "On-time project completion",
+  "Dewatering experts since 2018",
+  "Service across India",
+  "Experience on large projects",
 ];
 
 /* ---------- Helpers ---------- */
@@ -155,14 +157,10 @@ const secondaryY = useTransform(scrollYProgress, [0, 1], [10, -10]);
               <span className="flex size-12 items-center justify-center rounded-xl bg-white/15">
                 <Award size={24} />
               </span>
-              <div className="leading-tight">
-                <p className="text-3xl font-bold">
-                  <Counter to={EXPERIENCE_YEARS} suffix="+" />
-                </p>
-                <p className="mt-0.5 text-xs font-medium text-blue-100">
-                  Years of Experience
-                </p>
-              </div>
+             <div className="leading-tight">
+  <p className="text-xs font-medium text-blue-100">Since</p>
+  <p className="text-3xl font-bold">2018</p>
+</div>
             </motion.div>
           </motion.div>
         </motion.div>

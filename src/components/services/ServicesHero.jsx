@@ -165,7 +165,7 @@
 //               to="/contact"
 //               className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-sm font-bold text-[#0A2A6B] shadow-xl shadow-black/30 transition hover:scale-[1.03]"
 //             >
-//               <span className="relative z-10">Get Free Quote</span>
+//               <span className="relative z-10">Get a Quote</span>
 //               <ArrowRight
 //                 size={18}
 //                 className="relative z-10 transition-transform group-hover:translate-x-1"
@@ -373,7 +373,7 @@ export default function ServicesHero() {
               to="/contact"
               className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#0A2A6B] shadow-xl shadow-black/30 transition hover:scale-[1.03]"
             >
-              <span className="relative z-10">Get Free Quote</span>
+              <span className="relative z-10">Get a Quote</span>
               <ArrowRight
                 size={18}
                 className="relative z-10 transition-transform group-hover:translate-x-1"

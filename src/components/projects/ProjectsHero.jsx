@@ -154,7 +154,7 @@ export default function ProjectsHero() {
               to="/contact"
               className="group inline-flex items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-3.5 text-sm font-bold backdrop-blur-md transition hover:border-white hover:bg-white/20"
             >
-              Get Free Quote
+              Get a Quote
               <ArrowRight
                 size={18}
                 className="transition-transform group-hover:translate-x-1"

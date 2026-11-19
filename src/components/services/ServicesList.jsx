@@ -19,7 +19,7 @@ const WHATSAPP = "916398883191";
 const EYEBROW = "Our Services";
 const HEADING = "Dewatering Solutions for Every Site Condition";
 const SUBTEXT =
-  "Explore each method in detail and see which one fits your excavation, soil and budget. Not sure which to choose? We will guide you after a free site visit.";
+  "Explore each method in detail and see which one fits your excavation, soil and budget. Not sure which to choose? We will guide you after a Site Visit.";
 
 import wellPoint from "../../Asset/services/service-well-point.png";
 import deepWell from "../../Asset/services/service-deep-well.png";
@@ -76,7 +76,7 @@ const SERVICES = [
       "Rapid high volume pumping",
       "Suitable for flooded basements",
       "Safe discharge arrangement",
-      "Emergency support available",
+      "Works around your site schedule",
     ],
     bestFor: "Flooded basements and foundations",
     image: basement,
@@ -89,7 +89,7 @@ const SERVICES = [
       "Multiple pump capacities",
       "Short and long term rental",
       "Hoses, pipes and fittings available",
-      "Technical guidance on request",
+      "Capacity chosen to suit your site",
     ],
     bestFor: "Contractors needing flexible equipment",
     image: pumpRental,
@@ -365,7 +365,7 @@ export default function ServicesList() {
                       to="/contact"
                       className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-linear-to-r from-[#0A2A6B] to-[#1747B0] px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-blue-900/25 transition hover:shadow-xl hover:shadow-blue-900/30"
                     >
-                      <span className="relative z-10">Get Free Quote</span>
+                      <span className="relative z-10">Get a Quote</span>
                       <ArrowRight
                         size={18}
                         className="relative z-10 transition-transform group-hover:translate-x-1"

@@ -385,8 +385,7 @@ export default function ChooseMethod() {
                 Still not sure which one you need?
               </h3>
               <p className="mt-2 text-sm text-blue-100/90 sm:text-base">
-                We will inspect your site and recommend the right method, free
-                of cost.
+               We will inspect your site and recommend the right method for it.
               </p>
             </div>
 
@@ -395,7 +394,7 @@ export default function ChooseMethod() {
                 to="/contact"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#0A2A6B] shadow-lg transition hover:scale-[1.03]"
               >
-                Book Free Site Visit
+                Book a Site Visit
                 <ArrowRight
                   size={16}
                   className="transition-transform group-hover:translate-x-1"

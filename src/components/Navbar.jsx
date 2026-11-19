@@ -8,7 +8,7 @@ import logo from "../Asset/logo/logo-icon.png";
 const PHONE = "+91 6398883191";
 const PHONE_LINK = "+919876543210";
 const WHATSAPP = "919876543210";
-const EMAIL = "info@arsdewatering.com";
+const EMAIL = "rajpootarvind5390@gmail.com";
 const LOCATION = "Chhatarpur (M.P.)";
 const BRAND = "ARS";
 const BRAND_TAG = "Dewatering Contractor";
@@ -162,7 +162,7 @@ export default function Navbar() {
               to="/contact"
               className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-linear-to-r from-[#0A2A6B] to-[#1747B0] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-blue-900/20 transition-all hover:shadow-xl hover:shadow-blue-900/30"
             >
-              <span className="relative z-10">Get Free Quote</span>
+              <span className="relative z-10">Get a Quote</span>
               <ArrowRight
                 size={16}
                 className="relative z-10 transition-transform group-hover:translate-x-1"

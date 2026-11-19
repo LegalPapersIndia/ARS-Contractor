@@ -22,9 +22,9 @@ const PARA_2 =
   "From a simple sump pump to a full deep well system, our team handles planning, installation, monitoring and removal, so you can focus on construction.";
 
 const CHECKS = [
-  "Free site visit and clear quote",
+  "Site visit and a clear quote",
   "Right method for your soil and depth",
-  "Modern pumps and reliable accessories",
+  "Dewatering experience since 2018",
 ];
 
 const HIGHLIGHTS = [
@@ -36,7 +36,7 @@ const HIGHLIGHTS = [
   {
     icon: Wrench,
     title: "Complete Setup",
-    text: "Pumps, pipes, wells and discharge lines installed by our own trained team.",
+    text: "Pumps, pipes, wells and discharge lines set up as per the plan for your site.",
   },
   {
     icon: Gauge,
@@ -45,8 +45,8 @@ const HIGHLIGHTS = [
   },
   {
     icon: ShieldCheck,
-    title: "Guaranteed Results",
-    text: "We stay accountable until your excavation is dry and ready for work.",
+    title: "Guaranteed Work",
+    text: "We take responsibility for the quality of the work we do on your site.",
   },
 ];
 
@@ -139,7 +139,7 @@ export default function ServicesIntro() {
               to="/contact"
               className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-linear-to-r from-[#0A2A6B] to-[#1747B0] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-blue-900/25 transition hover:shadow-xl hover:shadow-blue-900/30"
             >
-              <span className="relative z-10">Get Free Quote</span>
+              <span className="relative z-10">Get a Quote</span>
               <ArrowRight
                 size={18}
                 className="relative z-10 transition-transform group-hover:translate-x-1"

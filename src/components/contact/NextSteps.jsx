@@ -20,14 +20,20 @@ const STEPS = [
     label: "Step 1",
     title: "We Get in Touch",
     text: "Our team calls or messages you to understand your site and the water problem you are facing.",
-    points: ["Short, simple conversation", "We note depth, location and urgency"],
+    points: [
+      "Short, simple conversation",
+      "We note depth, location and urgency",
+    ],
   },
   {
     icon: ClipboardCheck,
     label: "Step 2",
-    title: "Free Site Visit",
+    title: "Site Visit",
     text: "Our engineer visits your site to check water level, soil condition and the working area.",
-    points: ["Inspection at no cost", "Right method suggested for your site"],
+    points: [
+      "Inspection of water level and soil",
+      "Right method suggested for your site",
+    ],
   },
   {
     icon: FileText,
@@ -316,8 +322,8 @@ export default function NextSteps() {
             </span>
           </span>
           <p className="text-sm font-medium leading-relaxed text-white/95 sm:text-base">
-            No obligation. You decide after the site visit and the quote, and
-            you are never pushed into work you do not need.
+            Take your time. You decide what to do after the site visit and the
+            quote.
           </p>
         </motion.div>
       </div>

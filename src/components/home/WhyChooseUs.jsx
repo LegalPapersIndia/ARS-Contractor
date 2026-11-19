@@ -18,33 +18,33 @@ const PHONE_LINK = "+916398883191";
 const EYEBROW = "Why Choose ARS";
 const HEADING = "The Dewatering Partner You Can Depend On";
 const SUBTEXT =
-  "Every site is different. We combine the right equipment, a skilled team and a clear process, so water never becomes the reason your project gets delayed.";
+  "Every site is different. We combine the right equipment, a skilled team and a clear process, so water is less likely to delay your project.";
 
 const REASONS = [
   {
     icon: ShieldCheck,
     title: "Guaranteed Work",
-    text: "We stand behind every job. If the site is not dry as promised, we make it right.",
+    text: "We take responsibility for the quality of the work we do on every site.",
   },
   {
     icon: Wrench,
-    title: "Modern Equipment",
-    text: "Well maintained, high-capacity pumps and accessories that handle heavy groundwater flow.",
+    title: "Right Equipment",
+    text: "Pumps and accessories chosen to suit the water conditions of each site.",
   },
   {
     icon: HardHat,
     title: "Experienced Team",
-    text: "Trained site engineers and operators who know how to plan, install and monitor each setup.",
+    text: "A team with dewatering experience since 2018 on building, railway and infrastructure sites.",
   },
   {
     icon: Zap,
-    title: "Quick Response",
-    text: "Fast mobilisation for urgent sites, so water logging does not stop your construction work.",
+    title: "Work Across India",
+    text: "Our team takes up projects in Gujarat, Madhya Pradesh, Uttar Pradesh and other states.",
   },
   {
     icon: BadgeIndianRupee,
-    title: "Fair and Clear Pricing",
-    text: "Honest quotes after a site visit, with no hidden charges and no last minute surprises.",
+    title: "Clear Communication",
+    text: "We explain the work and the cost clearly before the job begins.",
   },
   {
     icon: Siren,
@@ -198,7 +198,7 @@ export default function WhyChooseUs() {
               Talk to our dewatering expert today
             </h3>
             <p className="mt-2 text-sm text-blue-100/80 sm:text-base">
-              Get a free site visit and a clear quote, with no obligation.
+              Request a Site Visit and a clear quote, with no obligation.
             </p>
           </div>
 
@@ -214,7 +214,7 @@ export default function WhyChooseUs() {
               to="/contact"
               className="group inline-flex items-center justify-center gap-2 rounded-full border border-white/30 px-7 py-3.5 text-sm font-bold transition hover:border-white hover:bg-white/15"
             >
-              Get Free Quote
+              Get a Quote
               <ArrowRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1"

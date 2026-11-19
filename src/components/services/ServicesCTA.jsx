@@ -19,16 +19,16 @@ import ctaBg from "../../Asset/services/services-cta.png";
 const PHONE = "+91 63988 83191";
 const PHONE_LINK = "+916398883191";
 const WHATSAPP = "916398883191";
-const LOCATION = "Chhatarpur (M.P.) and nearby districts";
+const LOCATION = "Chhatarpur (M.P.) | Serving sites across India";
 
 const EYEBROW = "Request a Callback";
 const HEADING = "Need Dewatering at Your Site?";
 const SUBTEXT =
-  "Share a few details and our team will get back to you with a free site visit and a clear quote.";
+  "Share a few details and our team will get back to you with a Site Visit and a clear quote.";
 
 const POINTS = [
-  "Free site visit and inspection",
-  "Clear quote with no hidden charges",
+  "Site visit and inspection",
+  "Clear quote for your site",
   "Right method for your site",
 ];
 
@@ -231,7 +231,7 @@ export default function ServicesCTA() {
 
             <div className="relative">
               <h3 className="text-xl font-medium sm:text-2xl">
-                Get a Free Callback
+                Get a Callback
               </h3>
               <p className="mt-1 text-sm text-blue-100/80">
                 Fill in your details, it takes less than a minute.

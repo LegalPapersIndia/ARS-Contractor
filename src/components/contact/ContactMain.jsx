@@ -17,14 +17,14 @@ import {
 const PHONE = "+91 63988 83191";
 const PHONE_LINK = "+916398883191";
 const WHATSAPP = "916398883191";
-const EMAIL = "info@arsdewatering.com";
+const EMAIL = "rajpootarvind5390@gmail.com";
 const ADDRESS = "Main Road, Chhatarpur, Madhya Pradesh - 471001";
 const TIMING = "Mon - Sat: 9:00 AM - 7:00 PM";
 
 const EYEBROW = "Send an Enquiry";
 const HEADING = "Tell Us About Your Site";
 const SUBTEXT =
-  "Share a few details and our team will contact you to arrange a free site visit and a clear quote.";
+  "Share a few details and our team will contact you to arrange a Site Visit and a clear quote.";
 
 const SERVICE_OPTIONS = [
   "Well Point Dewatering",
@@ -300,7 +300,7 @@ export default function ContactMain() {
           {/* ----- Right: form ----- */}
           <div className="p-7 sm:p-10 lg:col-span-3">
             <h3 className="text-2xl font-medium text-[#0A2A6B]">
-              Get a Free Site Visit
+              Request a Site Visit
             </h3>
             <p className="mt-1 text-sm text-slate-500">
               Fields marked with * are required.

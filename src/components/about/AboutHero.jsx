@@ -12,8 +12,7 @@ const HEADING_TOP = "A Dewatering Team";
 const HEADING_HIGHLIGHT = "You Can Trust";
 const HEADING_BOTTOM = "on Every Site";
 const SUBTEXT =
-  "We help builders and contractors in Chhatarpur and nearby districts keep their excavations dry, with the right equipment, skilled people and honest work.";
-
+  "We help builders and contractors across India keep their excavations dry, with the right equipment, skilled people and honest work.";
 /* ---------- Animation variants ---------- */
 const container = {
   hidden: {},

@@ -29,19 +29,19 @@ const FAQS = [
   },
   {
     q: "How is the cost decided?",
-    a: "The cost depends on excavation depth, soil type, water inflow, duration of work, the equipment needed, and power or fuel requirements. We give a clear quote after inspecting your site, with no hidden charges.",
+    a: "The cost depends on excavation depth, soil type, water inflow, duration of work, the equipment needed, and power or fuel requirements. We share a clear quote after inspecting your site.",
   },
   {
     q: "Do you provide pumps on rent without the full service?",
-    a: "Yes. If your team can handle the setup, you can take pumps, hoses and accessories on rent. Short term and long term options are available, and our team can guide you on the right capacity.",
+   a: "Please call us to ask about renting pumps and accessories. We will tell you what is available for your site.",
   },
   {
     q: "Can you help in an emergency, like a flooded basement?",
-    a: "Yes, call us as soon as you notice the problem. We will try to arrange equipment and a team on priority so that water is cleared and your work can resume as early as possible.",
+    a: "Call us as soon as you notice the problem and tell us about your site. We will let you know how quickly we can help.",
   },
   {
     q: "Which areas do you serve?",
-    a: "We work in Chhatarpur and nearby districts. If your site is outside this region, call us and we will let you know if we can support it.",
+   a: "We are based in Chhatarpur (M.P.) and our team works on projects across India, including Gujarat, Madhya Pradesh and Uttar Pradesh. Call us with your site location and we will confirm the details.",
   },
   {
     q: "What do I need to arrange at the site?",

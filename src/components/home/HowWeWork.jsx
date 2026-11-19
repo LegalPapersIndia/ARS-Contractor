@@ -18,7 +18,7 @@ const SUBTEXT =
 const STEPS = [
   {
     icon: MapPin,
-    title: "Free Site Visit",
+    title: "Site Visit",
     text: "Our engineer visits your site and checks the water level, soil condition and working area.",
   },
   {
@@ -210,7 +210,7 @@ export default function HowWeWork() {
             to="/contact"
             className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-linear-to-r from-[#0A2A6B] to-[#1747B0] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-blue-900/25 transition hover:shadow-xl hover:shadow-blue-900/30"
           >
-            <span className="relative z-10">Book a Free Site Visit</span>
+            <span className="relative z-10">Book a Site Visit</span>
             <ArrowRight
               size={18}
               className="relative z-10 transition-transform group-hover:translate-x-1"

@@ -16,11 +16,11 @@ import {
 const BRAND = "ARS";
 const BRAND_TAG = "Dewatering Contractor";
 const ABOUT_TEXT =
-  "Removing accumulated water from construction sites—quickly, safely, and reliably—and preparing the area for work: this is what we are known for.";
+  "We remove stagnant water from construction sites across India, keeping your project on schedule with reliable dewatering solutions.";
 const PHONE = "+91 6398883191";
 const PHONE_LINK = "+919876543210";
 const WHATSAPP = "919876543210";
-const EMAIL = "info@arsdewatering.com";
+const EMAIL = "rajpootarvind5390@gmail.com";
 const ADDRESS = "Main Road, Chhatarpur, Madhya Pradesh - 471001";
 const TIMING = "Mon - Sat: 9:00 AM - 7:00 PM";
 
@@ -137,7 +137,7 @@ export default function Footer() {
                 Has water collected on the site?
               </h3>
               <p className="mt-2 max-w-xl text-sm text-blue-50/90 sm:text-base">
-                Call today; our team is ready for a free site visit.
+                Call today; our team is ready for a Site Visit.
               </p>
             </div>
 
@@ -179,24 +179,28 @@ export default function Footer() {
             viewport={{ once: true, amount: 0.2 }}
             className="lg:col-span-4"
           >
-            <Link to="/" className="group inline-flex items-center gap-4" aria-label={`${BRAND} home`}>
-  <span className="flex h-16 items-center rounded-2xl bg-white px-3 py-2 shadow-xl shadow-black/30 transition-transform duration-300 group-hover:scale-105">
-    <img
-      src={logo}
-      alt={`${BRAND} logo`}
-      className="h-full w-auto object-contain"
-    />
-  </span>
+            <Link
+              to="/"
+              className="group inline-flex items-center gap-4"
+              aria-label={`${BRAND} home`}
+            >
+              <span className="flex h-16 items-center rounded-2xl bg-white px-3 py-2 shadow-xl shadow-black/30 transition-transform duration-300 group-hover:scale-105">
+                <img
+                  src={logo}
+                  alt={`${BRAND} logo`}
+                  className="h-full w-auto object-contain"
+                />
+              </span>
 
-  <div className="leading-tight">
-    <p className="text-xl font-extrabold text-white">
-      {BRAND_TAG.split(" ")[0]}
-    </p>
-    <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-400">
-      {BRAND_TAG.split(" ")[1]}
-    </p>
-  </div>
-</Link>
+              <div className="leading-tight">
+                <p className="text-xl font-extrabold text-white">
+                  {BRAND_TAG.split(" ")[0]}
+                </p>
+                <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-400">
+                  {BRAND_TAG.split(" ")[1]}
+                </p>
+              </div>
+            </Link>
 
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
               {ABOUT_TEXT}
@@ -212,7 +216,11 @@ export default function Footer() {
                   aria-label={s.name}
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-slate-300 transition-all hover:-translate-y-1 hover:border-sky-400 hover:bg-sky-500 hover:text-white"
                 >
-                  <svg viewBox="0 0 24 24" fill="currentColor" className="h-4.5 w-4.5">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4.5 w-4.5"
+                  >
                     <path d={s.path} />
                   </svg>
                 </a>
@@ -331,17 +339,23 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-5 py-6 text-center text-[13px] text-slate-400 sm:flex-row sm:text-left lg:px-6">
           <p>
-            &copy; {year} <span className="font-semibold text-white">{BRAND} {BRAND_TAG}</span>.
-            All rights reserved.
+            &copy; {year}{" "}
+            <span className="font-semibold text-white">
+              {BRAND} {BRAND_TAG}
+            </span>
+            . All rights reserved.
           </p>
-          <p className="text-slate-500">Chhatarpur (M.P.) | Quality Work, Guaranteed</p>
+         <p className="text-slate-500">Chhatarpur (M.P.) | Serving Sites Across India</p>
 
           <button
             onClick={scrollTop}
             aria-label="Back to top"
             className="group flex h-11 w-11 items-center justify-center rounded-full bg-sky-500 text-white shadow-lg transition hover:-translate-y-1 hover:bg-sky-400 sm:order-last"
           >
-            <ArrowUp size={18} className="transition-transform group-hover:-translate-y-0.5" />
+            <ArrowUp
+              size={18}
+              className="transition-transform group-hover:-translate-y-0.5"
+            />
           </button>
         </div>
       </div>

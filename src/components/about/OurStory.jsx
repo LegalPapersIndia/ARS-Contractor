@@ -18,26 +18,26 @@ const PHONE_LINK = "+916398883191";
 const EYEBROW = "Our Story";
 const HEADING = "From Water Logged Sites to Work Ready Ground";
 const PARA_1 =
-  "ARS was built around a simple idea: construction work should never stop because of water. When a foundation or basement floods, every lost day costs builders money and momentum, and they need help that is close, quick and dependable.";
-const PARA_2 =
-  "Today we support builders, contractors and developers across Chhatarpur and nearby districts with modern pumping equipment, trained operators and honest, clear communication from the first call to the last day on site.";
+  "ARS began in 2018 and is led by its proprietor, Arvind Rajput. We focus on one job: removing water from construction sites so that work can go on without delay.";
 
-// Placeholder story. Replace with the client's real history and milestones.
+const PARA_2 =
+  "From building projects in Jabalpur to railway, bullet train and smart city sites in Gujarat, and a Jal Nigam project in Kanpur, our team has carried out dewatering work across India. Our base is Chhatarpur (M.P.), and we take on projects wherever the site needs us.";
+
 const MILESTONES = [
   {
     icon: Lightbulb,
-    title: "The Idea",
-    text: "Reliable dewatering support close to the site, so builders do not have to wait or look far for help.",
+    title: "The Beginning",
+    text: "ARS started its dewatering work in 2018, with a focus on keeping construction sites dry.",
   },
   {
     icon: Compass,
-    title: "The Approach",
-    text: "Inspect first, choose the right method, then install and monitor the system with trained people.",
+    title: "Growing Across India",
+    text: "Our team has worked on building, railway, smart city and water supply projects in Gujarat, Madhya Pradesh and Uttar Pradesh.",
   },
   {
     icon: Flag,
     title: "The Goal",
-    text: "To be the first name builders in our region call whenever water becomes a problem on site.",
+    text: "To be the first name builders call whenever water becomes a problem on site.",
   },
 ];
 
@@ -244,7 +244,7 @@ export default function OurStory() {
                 <MapPin size={22} />
               </span>
               <div className="leading-tight">
-                <p className="text-sm font-semibold">Local Team</p>
+                <p className="text-sm font-semibold">Based in</p>
                 <p className="mt-0.5 text-xs text-blue-100">
                   Chhatarpur (M.P.)
                 </p>

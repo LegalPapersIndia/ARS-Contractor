@@ -214,7 +214,7 @@
 //               to="/contact"
 //               className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-sm font-bold text-[#0A2A6B] shadow-xl shadow-black/20 transition hover:scale-[1.03]"
 //             >
-//               <span className="relative z-10">Get Free Quote</span>
+//               <span className="relative z-10">Get a Quote</span>
 //               <ArrowRight
 //                 size={18}
 //                 className="relative z-10 transition-transform group-hover:translate-x-1"
@@ -302,9 +302,9 @@ import {
   ArrowRight,
   Phone,
   ShieldCheck,
-  Clock,
-  Wrench,
+  CalendarCheck,
   MapPin,
+  Building2,
   ChevronDown,
 } from "lucide-react";
 import heroBg from "../../Asset/hero-bg.jpg";
@@ -313,33 +313,33 @@ import heroBg from "../../Asset/hero-bg.jpg";
 const PHONE = "+91 63988 83191";
 const PHONE_LINK = "+916398883191";
 
-const BADGE = "Trusted Dewatering Contractor | Chhatarpur (M.P.)";
+const BADGE = "Dewatering Contractor | Serving Sites Across India";
 const HEADING_TOP = "Professional";
 const HEADING_HIGHLIGHT = "Dewatering Solutions";
 const HEADING_BOTTOM = "for Construction Sites";
 const SUBTEXT =
-  "We remove stagnant water from foundations, basements and excavations quickly and safely, keeping your project on schedule with guaranteed results.";
+  "Based in Chhatarpur (M.P.) and working on projects across India, we remove water from foundations, basements and excavations quickly and safely, keeping your project on schedule.";
 
 const FEATURES = [
+  {
+    icon: CalendarCheck,
+    title: "Since 2018",
+    text: "Years of dewatering experience",
+  },
   {
     icon: ShieldCheck,
     title: "Guaranteed Work",
     text: "Quality assured on every project",
   },
   {
-    icon: Wrench,
-    title: "Modern Equipment",
-    text: "High-capacity pumps and tools",
-  },
-  {
-    icon: Clock,
-    title: "Quick Response",
-    text: "Fast support for urgent sites",
-  },
-  {
     icon: MapPin,
-    title: "Free Site Visit",
-    text: "Across Chhatarpur and nearby areas",
+    title: "Service Across India",
+    text: "Projects in Gujarat, M.P. and U.P.",
+  },
+  {
+    icon: Building2,
+    title: "Large Project Experience",
+    text: "Smart city, railway and building sites",
   },
 ];
 
@@ -420,7 +420,7 @@ export default function Hero() {
               to="/contact"
               className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-sm font-bold text-[#0A2A6B] shadow-xl shadow-black/30 transition hover:scale-[1.03]"
             >
-              <span className="relative z-10">Get Free Quote</span>
+              <span className="relative z-10">Get a Quote</span>
               <ArrowRight
                 size={18}
                 className="relative z-10 transition-transform group-hover:translate-x-1"

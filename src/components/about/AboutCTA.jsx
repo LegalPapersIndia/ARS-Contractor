@@ -22,7 +22,7 @@ const HEADING = "Let Us Keep Your Next Project Dry";
 const SUBTEXT =
   "Choose the way that is easiest for you. Our team will respond, understand your site and guide you to the right solution.";
 
-const CHIPS = ["Free site visit", "Clear quote", "Quick response"];
+const CHIPS = ["Site visit", "Clear quote", "Work across India"];
 
 /* ---------- Animation variants ---------- */
 const headerContainer = {
@@ -112,7 +112,7 @@ export default function AboutCTA() {
     {
       icon: ClipboardList,
       title: "Send an Enquiry",
-      text: "Fill in a short form and book a free site visit at your convenience.",
+      text: "Fill in a short form and Book a Site Visit at your convenience.",
       cta: "Open Enquiry Form",
       to: "/contact",
       accent: "from-sky-400 to-blue-600",

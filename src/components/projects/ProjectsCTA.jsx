@@ -25,8 +25,8 @@ const WHATSAPP_MESSAGE =
 const EYEBROW = "Have a Similar Site?";
 const HEADING = "Send Us Photos of Your Site";
 const SUBTEXT =
-  "Share a few photos or a short video on WhatsApp. Our team will look at it and tell you what your site needs, before you even book a visit.";
-
+  "Share a few photos or a short video of your site on WhatsApp and tell us what you need. Our team will get back to you.";
+  
 const STEPS = [
   { icon: Camera, title: "Send Photos", text: "Share site photos on WhatsApp" },
   { icon: Eye, title: "We Review", text: "Our team checks your site" },
@@ -234,7 +234,7 @@ export default function ProjectsCTA() {
               to="/contact"
               className="group inline-flex items-center gap-2 text-sm font-semibold text-sky-200 transition hover:text-white"
             >
-              Or request a free site visit
+              Or request a Site Visit
               <ArrowRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1"
@@ -311,11 +311,11 @@ export default function ProjectsCTA() {
                   <p className="text-sm font-semibold text-[#0A2A6B]">
                     ARS Dewatering
                   </p>
-                  <p className="text-xs text-emerald-600">Replies with advice</p>
+                  <p className="text-xs text-emerald-600">Chat on WhatsApp</p>
                 </div>
               </div>
               <p className="mt-3 rounded-2xl rounded-tl-md bg-emerald-50 px-3.5 py-2.5 text-sm text-slate-700">
-                Thanks for the photos. Here is what your site needs.
+                Thanks for the photos. We will get back to you.
               </p>
               <p className="mt-2 flex items-center justify-end gap-1 text-[11px] text-slate-400">
                 <CheckCheck size={14} className="text-sky-500" />

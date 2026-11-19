@@ -7,35 +7,26 @@ const PHONE = "+91 63988 83191";
 const PHONE_LINK = "+916398883191";
 
 const EYEBROW = "Service Areas";
-const HEADING = "Serving Chhatarpur and Nearby Districts";
+const HEADING = "Serving Sites Across India";
 const SUBTEXT =
-  "Our team and equipment are ready to reach your site across Chhatarpur and the surrounding region. Check the areas we regularly serve below.";
+  "We are based in Chhatarpur (M.P.) and our team works on projects across India. Here are some of the places where we have worked.";
 
 const MAIN_AREA = "Chhatarpur";
 
-// Placeholder areas: replace with the client's real service locations
 const AREAS = [
-  "Khajuraho",
-  "Nowgong",
-  "Bijawar",
-  "Maharajpur",
-  "Rajnagar",
-  "Harpalpur",
-  "Panna",
-  "Tikamgarh",
-  "Sagar",
-  "Damoh",
-  "Satna",
+  "Ahmedabad, Gujarat",
+  "Dholera, Gujarat",
+  "Jabalpur, M.P.",
+  "Kanpur, U.P.",
+  "All over India",
 ];
 
-// Pin positions on the radar (percent of the radar box)
+// Pin positions on the radar (percent of the radar box). Indicative, not a real map.
 const PINS = [
-  { name: "Rajnagar", left: 50, top: 12 },
-  { name: "Khajuraho", left: 80, top: 30 },
-  { name: "Bijawar", left: 84, top: 66 },
-  { name: "Panna", left: 58, top: 88 },
-  { name: "Maharajpur", left: 22, top: 74 },
-  { name: "Nowgong", left: 16, top: 36 },
+  { name: "Kanpur", left: 66, top: 12 },
+  { name: "Jabalpur", left: 84, top: 62 },
+  { name: "Dholera", left: 18, top: 80 },
+  { name: "Ahmedabad", left: 12, top: 40 },
 ];
 
 /* ---------- Animation variants ---------- */
@@ -164,8 +155,8 @@ export default function ServiceAreas() {
             className="mt-8 flex flex-col gap-4 rounded-2xl border border-sky-200 bg-white p-5 shadow-sm sm:flex-row sm:items-center sm:justify-between"
           >
             <p className="text-sm font-medium text-slate-700">
-              Not sure if we cover your location? Call us and we will let you
-              know.
+              Have a site in another city or state? Call us, we work on projects
+              all over India.
             </p>
             <div className="flex shrink-0 gap-3">
               <a

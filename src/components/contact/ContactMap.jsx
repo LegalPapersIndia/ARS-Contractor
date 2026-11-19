@@ -20,8 +20,8 @@ const MAP_QUERY = "Chhatarpur, Madhya Pradesh";
 const EYEBROW = "Find Us";
 const HEADING = "Visit Our Location";
 const SUBTEXT =
-  "We are based in Chhatarpur and serve sites across the surrounding districts. Get directions or call us before you visit.";
-
+  "We are based in Chhatarpur (M.P.) and work on projects across India. Get directions or call us before you visit.";
+  
 const MAP_SRC = `https://www.google.com/maps?q=${encodeURIComponent(
   MAP_QUERY
 )}&output=embed`;

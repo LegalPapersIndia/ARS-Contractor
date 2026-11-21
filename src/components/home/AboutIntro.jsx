@@ -73,8 +73,8 @@ export default function AboutIntro() {
     target: sectionRef,
     offset: ["start end", "end start"],
   });
-const mainY = useTransform(scrollYProgress, [0, 1], [-15, 15]);
-const secondaryY = useTransform(scrollYProgress, [0, 1], [10, -10]);
+  const mainY = useTransform(scrollYProgress, [0, 1], [-15, 15]);
+  const secondaryY = useTransform(scrollYProgress, [0, 1], [10, -10]);
 
   return (
     <section
@@ -98,8 +98,7 @@ const secondaryY = useTransform(scrollYProgress, [0, 1], [10, -10]);
           <div
             className="absolute -right-2 top-8 -z-10 size-36 opacity-70"
             style={{
-              backgroundImage:
-                "radial-gradient(#1747B0 2px, transparent 2px)",
+              backgroundImage: "radial-gradient(#1747B0 2px, transparent 2px)",
               backgroundSize: "16px 16px",
             }}
           />
@@ -132,7 +131,7 @@ const secondaryY = useTransform(scrollYProgress, [0, 1], [10, -10]);
               alt="High-capacity dewatering pump and pipes"
               loading="lazy"
               style={{ y: secondaryY }}
-           className="absolute inset-0 size-full scale-110 object-cover"
+              className="absolute inset-0 size-full scale-110 object-cover"
             />
           </motion.div>
 
@@ -157,10 +156,10 @@ const secondaryY = useTransform(scrollYProgress, [0, 1], [10, -10]);
               <span className="flex size-12 items-center justify-center rounded-xl bg-white/15">
                 <Award size={24} />
               </span>
-             <div className="leading-tight">
-  <p className="text-xs font-medium text-blue-100">Since</p>
-  <p className="text-3xl font-bold">2018</p>
-</div>
+              <div className="leading-tight">
+                <p className="text-xs font-medium text-blue-100">Since</p>
+                <p className="text-3xl font-bold">2018</p>
+              </div>
             </motion.div>
           </motion.div>
         </motion.div>

@@ -32,6 +32,11 @@ const QUICK_LINKS = [
   { label: "Contact", to: "/contact" },
 ];
 
+const LEGAL_LINKS = [
+  { label: "Privacy Policy", to: "/privacy" },
+  { label: "Terms & Conditions", to: "/terms" },
+];
+
 const SERVICES = [
   "Well Point Dewatering",
   "Deep Well Dewatering",
@@ -336,8 +341,23 @@ export default function Footer() {
       </div>
 
       {/* ---------- Bottom bar ---------- */}
+            {/* ---------- Bottom bar ---------- */}
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-5 py-6 text-center text-[13px] text-slate-400 sm:flex-row sm:text-left lg:px-6">
+      <nav
+  aria-label="Legal"
+  className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-5 pt-6 lg:px-6"
+>
+  {LEGAL_LINKS.map((l) => (
+    <Link
+      key={l.to}
+      to={l.to}
+      className="text-xs text-slate-400 transition-colors duration-300 hover:text-sky-400 sm:text-sm"
+    >
+      {l.label}
+    </Link>
+  ))}
+</nav>
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-5 py-6 text-center text-[13px] text-slate-400 sm:flex-row sm:flex-wrap sm:text-left lg:flex-nowrap lg:px-6">
           <p>
             &copy; {year}{" "}
             <span className="font-semibold text-white">
@@ -345,7 +365,22 @@ export default function Footer() {
             </span>
             . All rights reserved.
           </p>
-         <p className="text-slate-500">Chhatarpur (M.P.) | Serving Sites Across India</p>
+
+          <p className="text-slate-500">
+            Chhatarpur (M.P.) | Serving Sites Across India
+          </p>
+
+          <p className="text-slate-500">
+            Developed By{" "}
+            <a
+              href="https://www.legalpapersindia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors duration-300 hover:text-sky-400"
+            >
+              Legal Papers India
+            </a>
+          </p>
 
           <button
             onClick={scrollTop}

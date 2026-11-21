@@ -6,8 +6,8 @@ import logo from "../Asset/logo/logo-icon.png";
 
 /* ---------- Content (client ka data aane par yahin badalna) ---------- */
 const PHONE = "+91 6398883191";
-const PHONE_LINK = "+919876543210";
-const WHATSAPP = "919876543210";
+const PHONE_LINK = "+916398883191";
+const WHATSAPP = "916398883191";
 const EMAIL = "rajpootarvind5390@gmail.com";
 const LOCATION = "Chhatarpur (M.P.)";
 const BRAND = "ARS";

@@ -18,8 +18,8 @@ const BRAND_TAG = "Dewatering Contractor";
 const ABOUT_TEXT =
   "We remove stagnant water from construction sites across India, keeping your project on schedule with reliable dewatering solutions.";
 const PHONE = "+91 6398883191";
-const PHONE_LINK = "+919876543210";
-const WHATSAPP = "919876543210";
+const PHONE_LINK = "+916398883191";
+const WHATSAPP = "916398883191";
 const EMAIL = "rajpootarvind5390@gmail.com";
 const ADDRESS = "Main Road, Chhatarpur, Madhya Pradesh - 471001";
 const TIMING = "Mon - Sat: 9:00 AM - 7:00 PM";
